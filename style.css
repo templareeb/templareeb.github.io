@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+	<!-- border: 1px solid grey; -->
+}
+
+body {
+    margin: 0;
+}
+a{
+	text-decoration: none;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: azure;
+    z-index: 1;
+    text-align: center; /* Center text horizontally */
+	background-image: url('pic.jpg');
+	background-size: cover;
+}
+
+header h1 {
+    display: inline-block; /* Prevents full width */
+}
+
+main {
+    margin-top: 150px;
+    padding: 20px;
+	overflow-y: scroll;
+}
+
+header ul {
+    display: inline-block; /* Prevents full width */
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#colorchange, #borderchange{
+	display: inline-block;
+    width: 120px;
+    background-color: azure;
+    padding: 20px;
+    margin: 0 auto;
+}
+#borderchange:hover{
+	border: 2px solid gold;
+}
+#colorchange:hover {
+    background-color: gold;
+}
+#experiments{
+	text-align: center;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	background-color: lightgrey;
+	}
