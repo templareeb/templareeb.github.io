@@ -51,7 +51,7 @@ header li {
     margin: 0 auto;
 }
 #borderchange:hover{
-	border: 5px solid gold;
+	border: 10px solid gold;
 }
 #colorchange:hover {
     background-color: gold;
