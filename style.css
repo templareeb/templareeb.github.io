@@ -45,10 +45,12 @@ header li {
 
 #colorchange, #borderchange{
 	display: inline-block;
-    	width: 120px;
-    	background-color: azure;
-    	padding: 20px;
-    	margin: 0 auto;
+  	width: 150px; /* Specify width */
+  	height: 120px; /* Specify height */
+  	background-color: azure;
+  	padding: 0px;
+  	margin: 30px auto;
+  	vertical-align: top;
 }
 #borderchange:hover{
 	border: 10px solid gold;
